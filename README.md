@@ -80,3 +80,17 @@ RSA and ECDSA would be fundamentally broken
 Shor’s algorithm was created in 1994 by mathematician Peter Shor while he was working at AT&T Bell Laboratories, at a time when quantum computing was largely a theoretical curiosity rather than a practical technology. Shor’s key insight was to show that a quantum computer could exploit quantum superposition and interference to solve certain mathematical problems exponentially faster than any known classical algorithm. By reducing the problem of integer factorization to the problem of period-finding and then solving that period-finding task efficiently using the quantum Fourier transform, Shor demonstrated for the first time that quantum mechanics could directly undermine the security assumptions of widely used cryptographic systems such as RSA.
 
 The significance of Shor’s algorithm went far beyond factoring large numbers. It provided the first concrete example of a quantum algorithm with an exponential speedup over classical methods for a problem of real-world importance, transforming quantum computing from an abstract idea into a strategically urgent field of research. Almost overnight, governments, academia, and industry realized that scalable quantum computers could one day break public-key cryptography, reshaping global cybersecurity and national security priorities. Shor’s work effectively launched modern quantum algorithms research and remains the foundational reason why quantum computing is now viewed as a disruptive and potentially world-altering technology.
+
+## FAQs
+
+### Is This A World Record?
+
+Yes! Each one of them (every instance) is an incremental world record. As per [Wikipedia](https://en.wikipedia.org/wiki/Integer_factorization_records#Records_for_efforts_by_quantum_computers) - The largest number reliably factored by Shor's algorithm is 21 which was factored in 2012. 15 had previously been factored by several labs.
+
+### Has Quantum Advantage Been Achieved?
+
+"Quantum advantage is the point where a quantum computer demonstrably solves a specific problem significantly faster, more accurately, or more cost-effectively than the best available classical computer, making previously impossible or impractical tasks feasible." The largest RSA Number factored classically using the general number field sieve is [RSA-250](https://en.wikipedia.org/wiki/RSA_Factoring_Challenge) which is a 829 Bit number. Thats way larger than any of these benchmarks as of now so we have to say that Quantum Advantage has not been achieved.
+
+### Does This Imply That Fault Tolerant Quantum Computers Already Exist And That Automatski' Quantum Computers Are The Worlds First Production Grade FTQC Quantum Computers?
+
+The answer to this question is constrained by the current Geo-Political Situation. You are free to infer whatever you feel like. ** No Comments **
