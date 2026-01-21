@@ -89,7 +89,7 @@ Yes! Each one of them (every instance) is an incremental world record. As per [W
 
 ### Has Quantum Advantage Been Achieved?
 
-"Quantum advantage is the point where a quantum computer demonstrably solves a specific problem significantly faster, more accurately, or more cost-effectively than the best available classical computer, making previously impossible or impractical tasks feasible." The largest RSA Number factored classically using the general number field sieve is [RSA-250](https://en.wikipedia.org/wiki/RSA_Factoring_Challenge) which is a 829 Bit number. Thats way larger than any of these benchmarks as of now so we have to say that Quantum Advantage has not been achieved.
+"Quantum advantage is the point where a quantum computer demonstrably solves a specific problem significantly faster, more accurately, or more cost-effectively than the best available classical computer, making previously impossible or impractical tasks feasible." The largest RSA Number factored classically using the general number field sieve is [RSA-250](https://en.wikipedia.org/wiki/RSA_Factoring_Challenge) which is a 829 Bit number. Thats way larger than any of these benchmarks as of now so we have to say that Quantum Advantage has not been achieved yet. Or in other words Quantum Computers have not surpassed Classical Supercomputers yet.
 
 ### Does This Imply That Fault Tolerant Quantum Computers Already Exist And That Automatski' Quantum Computers Are The Worlds First Production Grade FTQC Quantum Computers?
 
