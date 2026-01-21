@@ -12,7 +12,7 @@ All Rights Reserved By Automatski for its parts of the code.
 Rights to the original work is retained by the original vendors/authors who created the code.
 
 ### Warning!
-This is a classified projects.
+These are classified projects.
 And these benchmarks could have been delay-released by "upto" 5 years.
 
 ## Installation
