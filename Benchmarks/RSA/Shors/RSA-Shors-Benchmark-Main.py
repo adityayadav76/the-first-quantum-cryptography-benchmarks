@@ -10,6 +10,9 @@
 # copyright notice, and modified files need to carry a notice indicating
 # that they have been altered from the originals.
 
+# Modification:
+# Changes have been made to execute this program on Automatski' Quantum Computers
+# instead of the Qiskit Aer Simulator
 
 """
 Shor's factoring algorithm
