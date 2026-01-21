@@ -45,7 +45,11 @@ python RSA-Shors-Benchmark-Main.py
 
 ![](https://raw.githubusercontent.com/adityayadav76/the-first-quantum-cryptography-benchmarks/refs/heads/main/Runs/RSA/Shors/1398488603.png)
 
+**Whats Happening Here?**
 
+The Benchmark Python program generates the quantum circuit, transpiles it and sends it to Automatski' Quantum Computers which do a whole lot of processing. They optimize the quantum circuits, generate and optimze the control pulses, plan the execution and run the quantum circuit in one burst. The results are then returned to the python program which does post processing which involves things like calculations of continued fractions and the extraction of the period and the factors from the raw quantum computer output. All this takes hours. Nobody in the world has run Shors algorithms at production scale and this is the first attempt and a world record, so nobody realises how much time each of these things take. The non-practitioners and popular media makes it sound like RSA will get cracked in milli seconds, which is not realistic. 
+
+The effort of cracking RSA-2048 will take 4+ months in the best case. Because the process of transpilation of the generated quantum circuit itself will take 4+ months and terabytes of RAM. And the post processing of the output of the quantum computer (continued fractions etc.) is also non trivial. Besides which all this is assuming we are lucky and crack RSA-2048 in only one run, when in reality it could require multiple runs. And such project will be a multi-year project if not multi-month project in the least.
 
 ### N=85143280699972919909
 **In Progress**
