@@ -1,6 +1,8 @@
 # the-first-quantum-cryptography-benchmarks
 The First Quantum Cryptography Benchmarks ( RSA, ECDSA, ... )
 
+![](https://automatski.com/wp-content/uploads/2025/05/Automatski-New-Logo.svg)
+
 ## About
 
 TFQCB is a Quantum Cryptography Benchmark created by [Automatski](https://automatski.com).
@@ -14,6 +16,8 @@ Rights to the original work is retained by the original vendors/authors who crea
 ### Warning!
 These are classified projects.
 And these benchmarks could have been delay-released by "upto" 5 years.
+
+
 
 ## Installation
 
@@ -30,3 +34,16 @@ Run the Benchmarks
 cd Benchmarks\RSA\Shors
 python RSA-Shors-Benchmark-Main.py
 ```
+
+## Results
+
+### N=67297 70 Logical Qubits 1.15m Gates
+
+![](https://raw.githubusercontent.com/adityayadav76/the-first-quantum-cryptography-benchmarks/refs/heads/main/Runs/RSA/Shors/67297.png)
+
+### N=1398488603 126 Logical Qubits 10m Gates
+
+![](https://raw.githubusercontent.com/adityayadav76/the-first-quantum-cryptography-benchmarks/refs/heads/main/Runs/RSA/Shors/1398488603.png)
+
+### N=85143280699972919909
+**In Progress**
