@@ -19,7 +19,7 @@ And these benchmarks could have been delay-released by "upto" 5 years.
 
 TFQCB requires Python v3.11+ to run.
 
-Install the dependencies and devDependencies and start the server.
+Install the dependencies.
 
 ```sh
 pip install requests numpy qiskit==1.4.2 qiskit-aer qiskit-algorithms
