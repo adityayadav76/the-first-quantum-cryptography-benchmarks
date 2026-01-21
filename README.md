@@ -1,4 +1,4 @@
-# the-first-quantum-cryptography-benchmarks
+# The First Quantum Cryptography Benchmarks
 The First Quantum Cryptography Benchmarks ( RSA, ECDSA, ... )
 
 ![](https://automatski.com/wp-content/uploads/2025/05/Automatski-New-Logo.svg)
