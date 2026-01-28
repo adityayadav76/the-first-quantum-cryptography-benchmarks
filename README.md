@@ -5,25 +5,18 @@ The First Quantum Cryptography Benchmarks ( RSA, ECDSA, ... )
 
 ## About
 
-TFQCB is a Quantum Cryptography Benchmark created by [Automatski](https://automatski.com).
-It is a part of a larger suite of benchmarks used by Automatski to benchmark its Quantum Computers, which have not been released publicly till now.
-These Benchmarks are used to verify whether Automatski' Quantum Computers work perfectly after every engineering cycle, changes and upgrades.
+TFQCB is a Quantum Cryptography Benchmark created by [Automatski](https://automatski.com). It is part of a larger suite of benchmarks used by Automatski to evaluate its quantum computers, which have not yet been released publicly. These benchmarks are used to validate correct operation after each engineering cycle, including changes and upgrades.
 
 ### Intellectual Property
-All Rights Reserved By Automatski for its parts of the code.
-Rights to the original work is retained by the original vendors/authors who created the code.
+All rights are reserved by Automatski for Automatski-authored components of this codebase. Rights to third-party or upstream components remain with their respective original authors and licensors.
 
-### Warning!
-These are classified projects.
-And these benchmarks could have been delay-released by "upto" 5 years.
-
-
+### Notice!
+This repository contains material that may have been held back from release for up to five years.
 
 ## Installation
 
 TFQCB requires Python v3.11+ to run.
-
-Install the dependencies.
+Install dependencies:
 
 ```sh
 pip install requests numpy qiskit==1.4.2 qiskit-aer qiskit-algorithms
@@ -47,9 +40,12 @@ python RSA-Shors-Benchmark-Main.py
 
 **Whats Happening Here?**
 
-The Benchmark Python program generates the quantum circuit, transpiles it and sends it to Automatski' Quantum Computers which do a whole lot of processing. They optimize the quantum circuits, generate and optimze the control pulses, plan the execution and run the quantum circuit in one burst. The results are then returned to the python program which does post processing which involves things like calculations of continued fractions and the extraction of the period and the factors from the raw quantum computer output. All this takes hours. Nobody in the world has run Shors algorithms at production scale and this is the first attempt and a world record, so nobody realises how much time each of these things take. The non-practitioners and popular media makes it sound like RSA will get cracked in milli seconds, which is not realistic. 
+The benchmark program generates a quantum circuit, transpiles it, and submits it to Automatski’s quantum computers. The system performs circuit optimization, control-pulse generation/optimization, execution planning, and runs the circuit in a single execution. Results are returned to the Python program for post-processing, including continued-fraction calculations and extraction of the period and factors from raw device output.
 
-The effort of cracking RSA-2048 will take 4+ months in the best case. Because the process of transpilation of the generated quantum circuit itself will take 4+ months and terabytes of RAM. And the post processing of the output of the quantum computer (continued fractions etc.) is also non trivial. Besides which all this is assuming we are lucky and crack RSA-2048 in only one run, when in reality it could require multiple runs. And such project will be a multi-year project if not multi-month project in the least.
+End-to-end execution can take hours. Large-scale demonstrations of Shor’s algorithm are rare, and practical runtime is often understated in non-technical discussions. In particular, popular narratives can create the impression that RSA keys would be broken “in milliseconds,” which is not realistic for production-scale implementations.
+
+Factoring RSA-2048 would likely require sustained effort even in optimistic scenarios. For example, circuit generation and transpilation alone may take months and require substantial memory resources; post-processing (e.g., continued fractions) is also non-trivial. In addition, success may require multiple runs depending on noise, sampling requirements, and algorithmic parameters. As a result, such an effort should be treated as a multi-month to multi-year undertaking.
+
 
 ### N=85143280699972919909
 **In Progress**
