@@ -90,3 +90,23 @@ Yes! Each one of them (every instance) is an incremental world record. As per [W
 ### Does This Imply That Fault Tolerant Quantum Computers Already Exist And That Automatski' Quantum Computers Are The Worlds First Production Grade FTQC Quantum Computers?
 
 The answer to this question is constrained by the current Geo-Political Situation. You are free to infer whatever you feel like. ** No Comments **
+
+
+# Automatski's Quantum SDKs (**Free)
+
+[Quantum Annealing SDK](https://bit.ly/4ej7yaw)
+
+[Getting Started With Quantum Annealing Video](https://youtu.be/-wKqcIKxY0A)
+
+
+[Quantum Computing SDK](https://bit.ly/3XU7NDX)
+
+[Getting Started With Quantum Computing Video](https://youtu.be/o4x0YWJ4YMw)
+
+# Automatski's Quantum Playground (**Free)
+
+[Windows Installer](https://automatski-public-s3.s3.amazonaws.com/QuantumPlayground-1.0.0-Setup.exe)
+
+[Ubuntu/Debian Installer](https://automatski-public-s3.s3.amazonaws.com/automatski-quantum-playground_1.0.0_amd64.deb)
+
+[Mac M1-M5 Installer](https://automatski-public-s3.s3.amazonaws.com/automatski-quantum-playground_1.0.0_mac.dmg)
